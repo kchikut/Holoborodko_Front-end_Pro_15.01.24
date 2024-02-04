@@ -20,6 +20,5 @@ function generateStatistics() {
     statisticsOutput.innerHTML += `</ul>`;
 }
 function customSplit(input) {
-    // Custom split implementation (space as delimiter)
     return input.split(' ');
 }
